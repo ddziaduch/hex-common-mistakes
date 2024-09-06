@@ -3,5 +3,8 @@
     "psr-4": {
       "ddziaduch\\hexCommonMistakes\\": "src/"
     }
+  },
+  "require": {
+    "symfony/symfony": "^7.1"
   }
 }
