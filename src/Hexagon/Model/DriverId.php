@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Domain;
+namespace ddziaduch\hexCommonMistakes\Hexagon\Model;
 
 final class DriverId
 {
