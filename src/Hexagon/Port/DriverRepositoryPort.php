@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Hexagon\Port\Secondary;
+namespace ddziaduch\hexCommonMistakes\Hexagon\Port;
 
 use ddziaduch\hexCommonMistakes\Hexagon\Model\Driver;
 use ddziaduch\hexCommonMistakes\Hexagon\Model\DriverId;
