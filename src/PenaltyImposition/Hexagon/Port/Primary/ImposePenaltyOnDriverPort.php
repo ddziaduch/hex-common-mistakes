@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Hexagon\PenaltyImposition\Port\Primary;
+namespace ddziaduch\hexCommonMistakes\PenaltyImposition\Hexagon\Port\Primary;
 
-use ddziaduch\hexCommonMistakes\Hexagon\PenaltyImposition\Model\DriverId;
+use ddziaduch\hexCommonMistakes\PenaltyImposition\Hexagon\Model\DriverId;
 
 interface ImposePenaltyOnDriverPort
 {

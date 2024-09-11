@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Adapter\PenaltyImposition\Primary;
+namespace ddziaduch\hexCommonMistakes\PenaltyImposition\Adapter\Primary;
 
-use ddziaduch\hexCommonMistakes\Hexagon\PenaltyImposition\Model\DriverId;
-use ddziaduch\hexCommonMistakes\Hexagon\PenaltyImposition\Port\Primary\ImposePenaltyOnDriverPort;
+use ddziaduch\hexCommonMistakes\PenaltyImposition\Hexagon\Model\DriverId;
+use ddziaduch\hexCommonMistakes\PenaltyImposition\Hexagon\Port\Primary\ImposePenaltyOnDriverPort;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Attribute\AsController;
 

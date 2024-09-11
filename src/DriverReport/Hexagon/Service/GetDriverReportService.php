@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Hexagon\DriverReport\Service;
+namespace ddziaduch\hexCommonMistakes\DriverReport\Hexagon\Service;
 
-use ddziaduch\hexCommonMistakes\Hexagon\DriverReport\Port\Primary\GetDriverReportPort;
-use ddziaduch\hexCommonMistakes\Hexagon\DriverReport\Port\Secondary\DriverReportRepositoryPort;
+use ddziaduch\hexCommonMistakes\DriverReport\Hexagon\Port\Primary\GetDriverReportPort;
+use ddziaduch\hexCommonMistakes\DriverReport\Hexagon\Port\Secondary\DriverReportRepositoryPort;
 
 final readonly class GetDriverReportService implements GetDriverReportPort
 {

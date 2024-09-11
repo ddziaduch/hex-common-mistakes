@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Adapter\PenaltyImposition\Secondary;
+namespace ddziaduch\hexCommonMistakes\PenaltyImposition\Adapter\Secondary;
 
-use ddziaduch\hexCommonMistakes\Hexagon\PenaltyImposition\Model\Driver;
-use ddziaduch\hexCommonMistakes\Hexagon\PenaltyImposition\Model\DriverId;
-use ddziaduch\hexCommonMistakes\Hexagon\PenaltyImposition\Port\Secondary\DriverRepositoryPort;
+use ddziaduch\hexCommonMistakes\PenaltyImposition\Hexagon\Model\Driver;
+use ddziaduch\hexCommonMistakes\PenaltyImposition\Hexagon\Model\DriverId;
+use ddziaduch\hexCommonMistakes\PenaltyImposition\Hexagon\Port\Secondary\DriverRepositoryPort;
 use Override;
 
 final class PostgreSqlDriverRepositoryPortAdapter implements DriverRepositoryPort

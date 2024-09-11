@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Hexagon\DriverReport\Port\Secondary;
+namespace ddziaduch\hexCommonMistakes\DriverReport\Hexagon\Port\Secondary;
 
 interface DriverReportRepositoryPort
 {

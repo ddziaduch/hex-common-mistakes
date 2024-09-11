@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Adapter\DriverReport\Secondary;
+namespace ddziaduch\hexCommonMistakes\DriverReport\Adapter\Secondary;
 
-use ddziaduch\hexCommonMistakes\Hexagon\DriverReport\Port\Secondary\DriverReportRepositoryPort;
+use ddziaduch\hexCommonMistakes\DriverReport\Hexagon\Port\Secondary\DriverReportRepositoryPort;
 
 final class PostgreSqlDriverReportRepositoryPortAdapter implements DriverReportRepositoryPort
 {

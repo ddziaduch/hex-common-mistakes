@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Hexagon\DriverReport\Port\Primary;
+namespace ddziaduch\hexCommonMistakes\DriverReport\Hexagon\Port\Primary;
 
 interface GetDriverReportPort
 {

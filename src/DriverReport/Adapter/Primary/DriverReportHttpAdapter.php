@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Adapter\DriverReport\Primary;
+namespace ddziaduch\hexCommonMistakes\DriverReport\Adapter\Primary;
 
-use ddziaduch\hexCommonMistakes\Hexagon\DriverReport\Port\Primary\GetDriverReportPort;
+use ddziaduch\hexCommonMistakes\DriverReport\Hexagon\Port\Primary\GetDriverReportPort;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 final class DriverReportHttpAdapter
