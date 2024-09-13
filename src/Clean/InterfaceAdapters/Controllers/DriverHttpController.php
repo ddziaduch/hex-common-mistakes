@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Adapter\Primary;
+namespace ddziaduch\hexCommonMistakes\Clean\InterfaceAdapters\Controllers;
 
-use ddziaduch\hexCommonMistakes\Hexagon\Model\DriverId;
-use ddziaduch\hexCommonMistakes\Hexagon\Port\Primary\ImposePenaltyOnDriverPort;
+use ddziaduch\hexCommonMistakes\Clean\ApplicationBusinessRules\Ports\Input\ImposePenaltyOnDriverPortUseCaseInputPort;
+use ddziaduch\hexCommonMistakes\Clean\EnterpriseBusinessRules\DriverId;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Attribute\AsController;
 
 #[AsController]
-final readonly class DriverHttpAdapter
+final readonly class DriverHttpController
 {
     public function __construct(
-        private ImposePenaltyOnDriverPort $imposePenaltyOnDriver,
+        private ImposePenaltyOnDriverPortUseCaseInputPort $imposePenaltyOnDriver,
     ) {}
 
     public function __invoke(

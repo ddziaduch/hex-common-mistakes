@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Hexagon\Model;
+namespace ddziaduch\hexCommonMistakes\Clean\EnterpriseBusinessRules;
 
 final class Driver
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace ddziaduch\hexCommonMistakes\Hexagon\Service;
+namespace ddziaduch\hexCommonMistakes\Onion\Application\Service;
 
-use ddziaduch\hexCommonMistakes\Hexagon\Model\DriverId;
-use ddziaduch\hexCommonMistakes\Hexagon\Port\Primary\ImposePenaltyOnDriverPort;
-use ddziaduch\hexCommonMistakes\Hexagon\Port\Secondary\DriverRepositoryPort;
+use ddziaduch\hexCommonMistakes\Onion\Application\Port\Primary\ImposePenaltyOnDriverPort;
+use ddziaduch\hexCommonMistakes\Onion\Application\Port\Secondary\DriverRepositoryPort;
+use ddziaduch\hexCommonMistakes\Onion\Domain\DriverId;
 use Override;
 
 final readonly class ImposePenaltyOnDriverService implements ImposePenaltyOnDriverPort
