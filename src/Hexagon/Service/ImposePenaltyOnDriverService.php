@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace ddziaduch\hexCommonMistakes\Hexagon\Service;
 
-use ddziaduch\hexCommonMistakes\Adapter\Secondary\HttpPullPointsAdapter;
 use ddziaduch\hexCommonMistakes\Hexagon\Model\DriverId;
 use ddziaduch\hexCommonMistakes\Hexagon\Port\Primary\ImposePenaltyOnDriverPort;
 use ddziaduch\hexCommonMistakes\Hexagon\Port\Secondary\DriverRepositoryPort;
+use ddziaduch\hexCommonMistakes\Hexagon\Port\Secondary\PullPointsPort;
 use Override;
 use RuntimeException;
 
@@ -16,7 +16,7 @@ final readonly class ImposePenaltyOnDriverService implements ImposePenaltyOnDriv
 {
     public function __construct(
         private DriverRepositoryPort $repository,
-        private HttpPullPointsAdapter $pullPoints,
+        private PullPointsPort $pullPoints,
     ) {}
 
     #[Override]
