@@ -6,5 +6,8 @@ namespace ddziaduch\hexCommonMistakes\Hexagon\Model;
 
 final class DriverId
 {
-
+    public function __toString(): string
+    {
+        return '';
+    }
 }
