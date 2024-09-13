@@ -5,6 +5,9 @@
     }
   },
   "require": {
-    "symfony/symfony": "^7.1"
+    "symfony/symfony": "^7.1",
+    "psr/http-message": "^2.0",
+    "psr/http-client": "^1.0",
+    "psr/http-factory": "^1.1"
   }
 }
