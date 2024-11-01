@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace ddziaduch\hexCommonMistakes\Clean\ApplicationBusinessRules\UseCases;
 
-use ddziaduch\hexCommonMistakes\Clean\ApplicationBusinessRules\Ports\Input\ImposePenaltyOnDriverPortUseCaseInputPort;
+use ddziaduch\hexCommonMistakes\Clean\ApplicationBusinessRules\Ports\Input\ImposePenaltyOnDriverUseCaseInputPort;
 use ddziaduch\hexCommonMistakes\Clean\ApplicationBusinessRules\Ports\Output\DriverRepositoryOutputPort;
 use ddziaduch\hexCommonMistakes\Clean\EnterpriseBusinessRules\DriverId;
 use Override;
 
-final readonly class ImposePenaltyOnDriverUseCase implements ImposePenaltyOnDriverPortUseCaseInputPort
+final readonly class ImposePenaltyOnDriverUseCase implements ImposePenaltyOnDriverUseCaseInputPort
 {
     public function __construct(
         private DriverRepositoryOutputPort $repository,
